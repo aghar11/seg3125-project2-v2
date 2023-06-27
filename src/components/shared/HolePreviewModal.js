@@ -1,5 +1,5 @@
 import Modal from 'react-bootstrap/Modal';
-import { Button } from 'react-bootstrap';
+import { Button, Ratio } from 'react-bootstrap';
 
 function HolePreviewModal(props) {
   return (
@@ -11,19 +11,21 @@ function HolePreviewModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+          Hole _ Preview
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+            Hole Number: _ <br/>
+            Par: 4 <br/>
+            Yards: 270
         </p>
+        <Ratio>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6lJ8sAwBM9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Ratio>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={props.onHide} variant='dark'>Close</Button>
       </Modal.Footer>
     </Modal>
   );
