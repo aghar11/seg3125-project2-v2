@@ -80,7 +80,7 @@ function Homepage() {
                 </Container>
             </div>
             <Container className='d-flex align-center justify-content-center mt-5'>
-                <p className='text-center'>EAGLES GOLF CLUB © 2023</p>
+                <p className='text-center'>EAGLES NEST GOLF CLUB © 2023</p>
             </Container>
         </div>
     );
