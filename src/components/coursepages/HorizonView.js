@@ -1,11 +1,15 @@
 import NavigationBar from "../shared/NavigationBar";
 import { Button, Container, Image, Card, Col, Row, Badge, Carousel } from "react-bootstrap";
+import React from 'react';
+import HolePreviewModal from "../shared/HolePreviewModal";
 
 import landingPicture from "../../resources/coursePages/horizonViewLanding.jpg";
 import golfIcon from "../../resources/shared/golf.png";
 import holeLayout from "../../resources/coursePages/holeLayout.webp";
 
 function HorizonView() {
+    const [modalShow, setModalShow] = React.useState(false);
+
     return (
         <div className="HorizonView">
             <NavigationBar/>
@@ -47,21 +51,21 @@ function HorizonView() {
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 1</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 2</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 3</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -72,21 +76,21 @@ function HorizonView() {
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 4</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 5</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 6</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -97,21 +101,21 @@ function HorizonView() {
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 7</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 8</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 9</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -122,21 +126,21 @@ function HorizonView() {
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 10</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 11</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top"  src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 12</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -147,21 +151,21 @@ function HorizonView() {
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 13</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 14</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 15</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -172,21 +176,21 @@ function HorizonView() {
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 16</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 17</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top"  src={holeLayout}/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>Hole 18</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block'>Watch</Button>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -200,6 +204,11 @@ function HorizonView() {
             <Container className='d-flex align-center justify-content-center mt-4'>
                 <p className='text-center'>EAGLES NEST GOLF CLUB © 2023</p>
             </Container>
+
+            <HolePreviewModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
         </div>
     );
 }
