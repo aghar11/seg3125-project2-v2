@@ -1,0 +1,35 @@
+import logo from '../../resources/shared/logo.jpg';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Image } from 'react-bootstrap';
+
+function NavigationBar() {
+    return (
+        <>
+         <Container fluid className='text-center mt-4 mb-4'>
+            <Image src={logo} fluid/>
+         </Container>
+         <Navbar bg='dark' data-bs-theme="dark" >
+            <Container fluid className='text-center'>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className='m-auto'>
+                        <NavDropdown title="Play" className='mx-2'>
+                            <NavDropdown.Item href="">Horizon View</NavDropdown.Item>
+                            <NavDropdown.Item href="">Soaring Heights</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="">Bookings</NavDropdown.Item>
+                        </NavDropdown>
+                        <Nav.Link href="" className='mx-2'>Compete</Nav.Link>
+                        <Nav.Link href="" className='mx-2'>Learn</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+         </Navbar>
+        </>
+    );
+}
+
+export default NavigationBar;
