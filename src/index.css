@@ -15,3 +15,13 @@ code {
 .container-bg {
   background: #7EBA9A ;
 }
+
+.carousel-control-next-icon {
+  transform: translateX(100px);
+  position: absolute;
+}
+
+.carousel-control-prev-icon {
+  transform: translateX(-100px);
+  position: absolute;
+}

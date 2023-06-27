@@ -2,7 +2,7 @@ import NavigationBar from "../shared/NavigationBar";
 import { Button, Container, Image, Card, Col, Row } from "react-bootstrap";
 
 import landingPicture from "../../resources/hompage/homepageLanding.jpg";
-import golfIcon from "../../resources/hompage/golf.png";
+import golfIcon from "../../resources/shared/golf.png";
 import horizonViewIcon from "../../resources/hompage/horizonViewIcon.jpg";
 import soaringHeightsIcon from "../../resources/hompage/soaringHeightsIcon.jpeg";
 
@@ -51,9 +51,9 @@ function Homepage() {
                                 <Card.Body>
                                     <Card.Title className='text-center'>Horizon View</Card.Title>
                                     <Card.Text className='text-center'>
-                                    18 Hole Golf Course
+                                        18 Hole Golf Course
                                     </Card.Text>
-                                    <Button variant="dark" className='mx-auto d-block'>Learn More</Button>
+                                    <Button variant="dark" className='mx-auto d-block' href="/horizonView">Learn More</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -65,19 +65,17 @@ function Homepage() {
                                     <Card.Text className='text-center'>
                                     18 Hole Golf Course
                                     </Card.Text>
-                                    <Button variant="dark" className='mx-auto d-block'>Learn More</Button>
+                                    <Button variant="dark" className='mx-auto d-block' href="/soaringHeights">Learn More</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
                     </Row>
                 </Container>
-            </div>
-            <div className='container-bg'>
                 <Container className='d-flex align-center justify-content-center'>
                     <p></p>
                 </Container>
             </div>
-            <Container className='d-flex align-center justify-content-center mt-5'>
+            <Container className='d-flex align-center justify-content-center mt-4'>
                 <p className='text-center'>EAGLES NEST GOLF CLUB © 2023</p>
             </Container>
         </div>

@@ -16,9 +16,10 @@ function NavigationBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='m-auto'>
+                        <Nav.Link href="/" className='mx-2'>Home</Nav.Link>
                         <NavDropdown title="Play" className='mx-2'>
-                            <NavDropdown.Item href="">Horizon View</NavDropdown.Item>
-                            <NavDropdown.Item href="">Soaring Heights</NavDropdown.Item>
+                            <NavDropdown.Item href="/horizonView">Horizon View</NavDropdown.Item>
+                            <NavDropdown.Item href="/soaringHeights">Soaring Heights</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="">Bookings</NavDropdown.Item>
                         </NavDropdown>
