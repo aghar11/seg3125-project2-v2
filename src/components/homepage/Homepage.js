@@ -1,5 +1,3 @@
-import './Homepage.css';
-
 import NavigationBar from "../shared/NavigationBar";
 import { Button, Container, Image, Card, Col, Row } from "react-bootstrap";
 
