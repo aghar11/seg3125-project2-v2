@@ -1,6 +1,7 @@
-import { Container, Row, Col, Card, Button, Form } from "react-bootstrap";
+import { Container, Image, Row, Col, Card, Button, } from "react-bootstrap";
 import { useState } from "react";
 
+import landingPicture from "../../../resources/coursepages/courseSelection.png"
 import horizonViewIcon from "../../../resources/hompage/horizonViewIcon.jpg";
 import soaringHeightsIcon from "../../../resources/hompage/soaringHeightsIcon.jpeg";
 
@@ -9,6 +10,7 @@ const CourseSelection = ({ setCourseName  }) => {
 
     return (
         <Container className='mt-3'>
+            <Image src={landingPicture} className='mx-auto d-block'></Image>
             <h1 className='display-6'>Select a Course</h1>
             <Container className='d-flex align-center justify-content-center mt-2'>
                 <Row>
