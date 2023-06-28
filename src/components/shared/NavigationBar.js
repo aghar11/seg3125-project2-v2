@@ -24,7 +24,10 @@ function NavigationBar() {
                             <NavDropdown.Item href="">Bookings</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="" className='mx-2'>Compete</Nav.Link>
-                        <Nav.Link href="" className='mx-2'>Learn</Nav.Link>
+                        <NavDropdown title="Learn" className='mx-2'>
+                            <NavDropdown.Item href="/learn/basics">Basic Resources</NavDropdown.Item>
+                            <NavDropdown.Item href="/learn/instructors">Instructors</NavDropdown.Item>
+                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
