@@ -2,8 +2,8 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Homepage from './components/homepage/Homepage';
-import HorizonView from './components/coursePages/HorizonView';
-import SoaringHeights from './components/coursePages/SoaringHeights';
+import HorizonView from './components/coursepages/HorizonView';
+import SoaringHeights from './components/coursepages/SoaringHeights';
 import Basics from './components/learnPages/Basics';
 import Instructors from './components/learnPages/Instructors';
 
