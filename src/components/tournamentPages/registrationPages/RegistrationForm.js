@@ -1,5 +1,5 @@
 import { useState } from "react";
-import GolferInfoInput from "../../coursepages/bookingFormPages/GolferInfoInput";
+import GolferInfoInput from "./GolferInfoInput";
 import FinalPage from "./FinalPage";
 import RegistrationDetails from "./RegistrationDetails";
 
