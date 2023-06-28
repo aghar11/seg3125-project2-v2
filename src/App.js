@@ -7,6 +7,8 @@ import SoaringHeights from './components/coursepages/SoaringHeights';
 import Basics from './components/learnPages/Basics';
 import Instructors from './components/learnPages/Instructors';
 import BookingPage from './components/coursepages/BookingPage';
+import TournamentHome from './components/tournamentPages/TournamentHome';
+import TournamentRegistration from './components/tournamentPages/TournamentRegistration';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route exact path='/learn/basics' element={<Basics/>} />
         <Route exact path='/learn/instructors' element={<Instructors/>} />
         <Route exact path='/courseBooking' element={<BookingPage/>} />
+        <Route exact path='/tournamentHome' element={<TournamentHome/>} />
+        <Route exact path='/tournamentRegistration' element={<TournamentRegistration/>} />
       </Routes>
     </BrowserRouter>
   );
