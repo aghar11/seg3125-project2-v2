@@ -6,6 +6,7 @@ import HorizonView from './components/coursepages/HorizonView';
 import SoaringHeights from './components/coursepages/SoaringHeights';
 import Basics from './components/learnPages/Basics';
 import Instructors from './components/learnPages/Instructors';
+import Booking from './components/coursepages/Booking';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path='/soaringHeights' element={<SoaringHeights/>} />
         <Route exact path='/learn/basics' element={<Basics/>} />
         <Route exact path='/learn/instructors' element={<Instructors/>} />
+        <Route exact path='/courseBooking' element={<Booking/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -3,9 +3,9 @@ import { Button, Container, Image, Card, Col, Row, Badge, Carousel } from "react
 import React from "react";
 import HolePreviewModal from "../shared/HolePreviewModal";
 
-import landingPicture from "../../resources/coursePages/soaringHeightsLanding.jpeg";
+import landingPicture from "../../resources/coursepages/soaringHeightsLanding.jpeg";
 import golfIcon from "../../resources/shared/golf.png";
-import holeLayout from "../../resources/coursePages/holeLayout.webp";
+import holeLayout from "../../resources/coursepages/holeLayout.webp";
 
 function SoaringHeights() {
     const [modalShow, setModalShow] = React.useState(false);
@@ -24,7 +24,7 @@ function SoaringHeights() {
             <Container className='mt-4'>
                 <Row>
                     <Col>
-                        <Button className='m-auto d-block mt-5' variant='success'>Book Now</Button>
+                        <Button className='m-auto d-block mt-5' variant='success' href='/courseBooking'>Book Now</Button>
                     </Col>
                     <Col>
                         <Image src={golfIcon} className='mx-auto d-block mt-5'></Image>
