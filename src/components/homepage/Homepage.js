@@ -27,7 +27,7 @@ function Homepage() {
                     </Col>
                     <Col>
                         <Image src={golfIcon} className='mx-auto d-block mt-4'></Image>
-                        <Button className='mx-auto d-block mt-3' variant='dark' href='/courseBooking'>Book Now</Button>
+                        <Button className='mx-auto d-block mt-3' variant='success' href='/courseBooking'>Book Now</Button>
                     </Col>
                     <Col>
                         <h1 className='display-6 text-center'>Contact</h1>
