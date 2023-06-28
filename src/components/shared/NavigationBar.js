@@ -21,7 +21,7 @@ function NavigationBar() {
                             <NavDropdown.Item href="/horizonView">Horizon View</NavDropdown.Item>
                             <NavDropdown.Item href="/soaringHeights">Soaring Heights</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="">Bookings</NavDropdown.Item>
+                            <NavDropdown.Item href="">Book Now</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="" className='mx-2'>Compete</Nav.Link>
                         <NavDropdown title="Learn" className='mx-2'>
