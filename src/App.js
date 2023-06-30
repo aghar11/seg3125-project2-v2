@@ -9,6 +9,7 @@ import Instructors from './components/learnPages/Instructors';
 import BookingPage from './components/coursepages/BookingPage';
 import TournamentHome from './components/tournamentPages/TournamentHome';
 import TournamentRegistration from './components/tournamentPages/TournamentRegistration';
+import TournamentList from './components/tournamentPages/TournamentList';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/courseBooking' element={<BookingPage/>} />
         <Route exact path='/tournamentHome' element={<TournamentHome/>} />
         <Route exact path='/tournamentRegistration' element={<TournamentRegistration/>} />
+        <Route exact path='/tournamentList' element={<TournamentList/>} />
       </Routes>
     </BrowserRouter>
   );

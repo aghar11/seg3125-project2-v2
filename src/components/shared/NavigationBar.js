@@ -23,7 +23,7 @@ function NavigationBar() {
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="/courseBooking">Book Now</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="" className='mx-2'>Compete</Nav.Link>
+                        <Nav.Link href="/tournamentList" className='mx-2'>Compete</Nav.Link>
                         <NavDropdown title="Learn" className='mx-2'>
                             <NavDropdown.Item href="/learn/basics">Basic Resources</NavDropdown.Item>
                             <NavDropdown.Item href="/learn/instructors">Instructors</NavDropdown.Item>
