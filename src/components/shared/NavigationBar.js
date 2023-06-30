@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Image } from 'react-bootstrap';
+import { Image, Button } from 'react-bootstrap';
 
 function NavigationBar() {
     return (
@@ -29,6 +29,7 @@ function NavigationBar() {
                             <NavDropdown.Item href="/learn/instructors">Instructors</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
+                    <Button variant="success" href='/memberLogin'>Member Login</Button>
                 </Navbar.Collapse>
             </Container>
          </Navbar>

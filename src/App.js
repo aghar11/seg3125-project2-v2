@@ -10,6 +10,8 @@ import BookingPage from './components/coursepages/BookingPage';
 import TournamentHome from './components/tournamentPages/TournamentHome';
 import TournamentRegistration from './components/tournamentPages/TournamentRegistration';
 import TournamentList from './components/tournamentPages/TournamentList';
+import MemberLogin from './components/memberpages/MemberLogin';
+import MemberHome from './components/memberpages/MemberHome';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route exact path='/tournamentHome' element={<TournamentHome/>} />
         <Route exact path='/tournamentRegistration' element={<TournamentRegistration/>} />
         <Route exact path='/tournamentList' element={<TournamentList/>} />
+        <Route exact path='/memberLogin' element={<MemberLogin/>} />
+        <Route exact path='/memberHome' element={<MemberHome/>} />
       </Routes>
     </BrowserRouter>
   );
