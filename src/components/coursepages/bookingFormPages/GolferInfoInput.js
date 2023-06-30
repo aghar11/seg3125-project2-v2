@@ -1,11 +1,8 @@
-import { Container, Image, Row, Col, Card, Button, Form } from "react-bootstrap";
-import { useState } from "react";
+import { Container, Image, Row, Col, Card, Button } from "react-bootstrap";
 
 import landingPicture from "../../../resources/coursepages/player_info.png"
 
 const GolferInfoInput = ({setCourseName, prevStep}) => {
-    const [error, setError] = useState(false);
-
     return (
         <Container className='mt-3'>
             <Image src={landingPicture} className='mx-auto d-block'></Image>
