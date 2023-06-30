@@ -1,7 +1,7 @@
 import { Container, Image, Row, Col, Card, Button, Form } from "react-bootstrap";
 import { useState } from "react";
 
-import landingPicture from "../../../resources/coursepages/confirmDetails.png";
+import landingPicture from "../../../resources/coursepages/confirm_details.png";
 
 const DetailsConfirmation = ({setCourseName, prevStep}) => {
     const [error, setError] = useState(false);

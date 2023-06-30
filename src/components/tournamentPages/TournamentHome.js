@@ -3,8 +3,8 @@ import { Button, Container, Image, Card, Col, Row, Badge, Carousel } from "react
 import React from 'react';
 
 
-import landingPicture from "../../resources/tournamentPages/tournamentLanding.jpg";
-import callawayLogo from "../../resources/tournamentPages/callawayLogo.gif";
+import landingPicture from "../../resources/tournamentPages/tournament_landing.jpg";
+import callawayLogo from "../../resources/tournamentPages/callaway_logo.gif";
 
 
 function TournamentHome() {

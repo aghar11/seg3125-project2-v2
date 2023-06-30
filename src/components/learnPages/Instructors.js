@@ -3,7 +3,7 @@ import { Image, Container, Row, Col, Card, Button } from "react-bootstrap";
 import React from "react";
 import InstructorContactModal from "../shared/InstructorContactModal";
 
-import landingPicture from "../../resources/learnPages/instructorsLanding.jpg";
+import landingPicture from "../../resources/learnPages/instructors_landing.jpg";
 import david from "../../resources/learnPages/instructorsHeadshots/David.jpg";
 import mark from "../../resources/learnPages/instructorsHeadshots/Mark.jpg";
 import mike from "../../resources/learnPages/instructorsHeadshots/Mike.jpg";

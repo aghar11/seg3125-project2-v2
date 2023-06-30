@@ -3,9 +3,9 @@ import { Button, Container, Image, Card, Col, Row, Badge, Carousel } from "react
 import React from 'react';
 import HolePreviewModal from "../shared/HolePreviewModal";
 
-import landingPicture from "../../resources/coursepages/horizonViewLanding.jpg";
+import landingPicture from "../../resources/coursepages/horizon_view_landing.jpg";
 import golfIcon from "../../resources/shared/golf.png";
-import holeLayout from "../../resources/coursepages/holeLayout.webp";
+import holeLayout from "../../resources/coursepages/hole_layout.webp";
 
 function HorizonView() {
     const [modalShow, setModalShow] = React.useState(false);

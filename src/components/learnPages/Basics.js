@@ -1,7 +1,7 @@
 import NavigationBar from "../shared/NavigationBar";
 import { Image, Container, Accordion, Ratio } from "react-bootstrap";
 
-import landingPicture from "../../resources/learnPages/basicsLanding.jpg"
+import landingPicture from "../../resources/learnPages/basics_landing.jpg";
 
 function Basics() {
     return (

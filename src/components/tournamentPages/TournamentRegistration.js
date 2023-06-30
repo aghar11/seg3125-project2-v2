@@ -2,7 +2,7 @@ import NavigationBar from "../shared/NavigationBar";
 import { Image, Container, Row, Col } from "react-bootstrap";
 import RegistrationForm from "./registrationPages/RegistrationForm";
 
-import landingPicture from "../../resources/tournamentPages/tournamentRegistration.jpg"
+import landingPicture from "../../resources/tournamentPages/tournament_registration.jpg"
 
 function TournamentRegistration() {
     return (

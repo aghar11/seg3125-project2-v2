@@ -1,9 +1,9 @@
 import { Container, Image, Row, Col, Card, Button, } from "react-bootstrap";
 import { useState } from "react";
 
-import landingPicture from "../../../resources/coursepages/courseSelection.png"
-import horizonViewIcon from "../../../resources/hompage/horizonViewIcon.jpg";
-import soaringHeightsIcon from "../../../resources/hompage/soaringHeightsIcon.jpeg";
+import landingPicture from "../../../resources/coursepages/course_selection.png"
+import horizonViewIcon from "../../../resources/homepage/horizon_view_icon.jpg";
+import soaringHeightsIcon from "../../../resources/homepage/soaring_heights_icon.jpeg";
 
 const CourseSelection = ({ setCourseName  }) => {
     const [error, setError] = useState(false);

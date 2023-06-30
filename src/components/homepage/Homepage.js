@@ -1,10 +1,10 @@
 import NavigationBar from "../shared/NavigationBar";
 import { Button, Container, Image, Card, Col, Row } from "react-bootstrap";
 
-import landingPicture from "../../resources/hompage/homepageLanding.jpg";
+import landingPicture from "../../resources/homepage/homepage_landing.jpg";
 import golfIcon from "../../resources/shared/golf.png";
-import horizonViewIcon from "../../resources/hompage/horizonViewIcon.jpg";
-import soaringHeightsIcon from "../../resources/hompage/soaringHeightsIcon.jpeg";
+import horizonViewIcon from "../../resources/homepage/horizon_view_icon.jpg";
+import soaringHeightsIcon from "../../resources/homepage/soaring_heights_icon.jpeg";
 
 function Homepage() {
     return (

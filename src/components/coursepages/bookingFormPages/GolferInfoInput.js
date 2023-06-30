@@ -1,7 +1,7 @@
 import { Container, Image, Row, Col, Card, Button, Form } from "react-bootstrap";
 import { useState } from "react";
 
-import landingPicture from "../../../resources/coursepages/playerInfo.png"
+import landingPicture from "../../../resources/coursepages/player_info.png"
 
 const GolferInfoInput = ({setCourseName, prevStep}) => {
     const [error, setError] = useState(false);

@@ -3,9 +3,9 @@ import { Button, Container, Image, Card, Col, Row, Badge, Carousel } from "react
 import React from "react";
 import HolePreviewModal from "../shared/HolePreviewModal";
 
-import landingPicture from "../../resources/coursepages/soaringHeightsLanding.jpeg";
+import landingPicture from "../../resources/coursepages/soaring_heights_landing.jpeg";
 import golfIcon from "../../resources/shared/golf.png";
-import holeLayout from "../../resources/coursepages/holeLayout.webp";
+import holeLayout from "../../resources/coursepages/hole_layout.webp";
 
 function SoaringHeights() {
     const [modalShow, setModalShow] = React.useState(false);
