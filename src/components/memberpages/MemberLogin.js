@@ -14,7 +14,7 @@ function MemberLogin() {
                     <Col md={{ span: 6, offset: 3 }}>
                         <Form>
                             <Form.Group className="mb-3" controlId="formGroupEmail">
-                                <Form.Label>Email address</Form.Label>
+                                <Form.Label>Email Address</Form.Label>
                                 <Form.Control type="email" placeholder="Enter email" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formGroupPassword">
