@@ -1,5 +1,5 @@
 import NavigationBar from "../shared/NavigationBar";
-import { Button, Container, Image, Card, Col, Row, Badge, Carousel } from "react-bootstrap";
+import { Button, Container, Image, Col, Row } from "react-bootstrap";
 import React from 'react';
 
 
