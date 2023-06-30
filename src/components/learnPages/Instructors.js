@@ -1,7 +1,7 @@
 import NavigationBar from "../shared/NavigationBar";
 import { Image, Container, Row, Col, Card, Button } from "react-bootstrap";
 import React from "react";
-import InstructorContactModal from "../shared/InstructorContactModal";
+import InstructorContactModal from "./InstructorContactModal";
 
 import landingPicture from "../../resources/learnPages/instructors_landing.jpg";
 import david from "../../resources/learnPages/instructorsHeadshots/David.jpg";

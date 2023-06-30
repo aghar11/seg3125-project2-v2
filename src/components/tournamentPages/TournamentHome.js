@@ -2,10 +2,8 @@ import NavigationBar from "../shared/NavigationBar";
 import { Button, Container, Image, Col, Row } from "react-bootstrap";
 import React from 'react';
 
-
 import landingPicture from "../../resources/tournamentPages/tournament_landing.jpg";
 import callawayLogo from "../../resources/tournamentPages/callaway_logo.gif";
-
 
 function TournamentHome() {
     return (
