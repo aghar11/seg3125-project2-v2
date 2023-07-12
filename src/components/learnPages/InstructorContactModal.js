@@ -2,6 +2,12 @@ import Modal from 'react-bootstrap/Modal';
 import { Button, Form } from 'react-bootstrap';
 
 function InstructorContactModal(props) {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    props.onHide();
+  }
+
   return (
     <Modal
       {...props}
@@ -15,7 +21,7 @@ function InstructorContactModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Form>
+        <Form onSubmit={handleSubmit}>
             <Form.Group className='mb-3' controlId='formName'>
                 <Form.Label>Name</Form.Label>
                 <Form.Control type="name" placeholder='Enter name' required/>
@@ -42,11 +48,11 @@ function InstructorContactModal(props) {
                 <Form.Label>Goals</Form.Label>
                 <Form.Control placeholder='Enter some golf goals you want to achieve'/>
             </Form.Group>
+            <Button className='mx-auto d-block mt-3' type="submit" variant='success'>Send</Button>
         </Form>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide} variant='outline-dark'>Close</Button>
-        <Button onClick={props.onHide} variant='success'>Send</Button>
       </Modal.Footer>
     </Modal>
   );
