@@ -10,8 +10,8 @@ function Basics() {
             <Image src={landingPicture} className='mx-auto d-block w-100'></Image>
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Let's get you started!</h1>
-                <p>
-                    We know that golf can be an intimidating sport to get into so we've compiled some of the most frequently asked question as well as some useful resources below. We hope these help you out! <br/>
+                <p className="text-center">
+                    We know that golf can be an intimidating sport to get into so we've compiled some of the most frequently asked question as well as some useful resources below.<br/>We hope these help you out! <br/><br/>
                     In case you have any questions that aren't covered here, please feel free to contact us or ask any of our staff members next time you're here. We're happy to help!
                 </p>
                 <h1 className='display-6 mt-1'>Helpful Videos</h1>
