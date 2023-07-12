@@ -17,7 +17,7 @@ function HorizonView() {
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Horizon View</h1>
                 <h1 className='text-center'>
-                    <Badge bg="success">Now Open</Badge>
+                    <Badge bg="dark">Now Open</Badge>
                 </h1>
                 <p>Immerse yourself in the stunning beauty of the surrounding landscape on the Horizon View Course at Eagle's Nest Golf Club. As you play this course, you'll be treated to panoramic views of rolling hills, lush greenery, and distant horizons that seem to stretch on forever. The Horizon View Course offers a harmonious blend of challenging holes and breathtaking scenery, creating a golfing experience that is both invigorating and tranquil. Let the natural wonders of the course inspire your swings as you tee off against the backdrop of nature's majesty.</p>
             </Container>
