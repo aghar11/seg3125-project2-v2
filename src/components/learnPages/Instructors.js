@@ -20,7 +20,7 @@ function Instructors() {
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Golf Academy</h1>
                 <p>
-                Welcome to the our golf academy, where passion meets precision on the fairways. Our esteemed golf school is dedicated to helping golfers of all skill levels elevate their game to new heights. With state-of-the-art facilities, cutting-edge technology, and a personalized approach, we offer comprehensive instruction tailored to your individual needs. Get ready to unlock your full potential, refine your skills, and embrace the joy of golf.
+                Our esteemed golf school is dedicated to helping golfers of all skill levels elevate their game to new heights. With state-of-the-art facilities, cutting-edge technology, and a personalized approach, we offer comprehensive instruction tailored to your individual needs. Get ready to unlock your full potential, refine your skills, and embrace the joy of golf.
                 </p>
                 <h1 className='display-6'>Our Instructors</h1>
                 <p>
