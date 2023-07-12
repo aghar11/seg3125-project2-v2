@@ -19,7 +19,7 @@ function SoaringHeights() {
                 <h1 className='text-center'>
                     <Badge bg="dark">Now Open</Badge>
                 </h1>
-                <p>Prepare to be awe-inspired as you ascend to new heights on the Soaring Heights Course at Eagle's Nest Golf Club. This course is renowned for its elevated fairways, strategically placed bunkers, and sweeping views that stretch far beyond the horizon. Immerse yourself in the beauty of nature while tackling the challenges of this stunning course, where every shot feels like a majestic flight towards the heavens.</p>
+                <p className="text-center">The Soaring Heights Course at Eagle's Nest Golf Club is renowned for its elevated fairways, strategically placed bunkers, and sweeping views that stretch far beyond the horizon. Immerse yourself in the beauty of nature while tackling the challenges of this stunning course, where every shot feels like a majestic flight towards the heavens.<br/>We hope you enjoy it as much as we do!</p>
             </Container>
             <Container className='mt-4'>
                 <Row>
