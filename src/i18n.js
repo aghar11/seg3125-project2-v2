@@ -28,7 +28,13 @@ i18n
             contact: "Contact",
             exploreOurCourses: "Explore Our Courses",
             gcdesc: "18 Hole Golf Course",
-            learnMore: "Learn More"
+            learnMore: "Learn More",
+            exploreHV: "Explore Horizon View",
+            nowOpen: "Now Open",
+            horizonViewDesc: "As you play the the Horizon View Course at Eagle's Nest Golf Club, you'll be treated to panoramic views of rolling hills, lush greenery, and distant horizons that seem to stretch on forever. The Horizon View Course offers a harmonious blend of challenging holes and breathtaking scenery, creating a golfing experience that is both invigorating and tranquil.",
+            courseSignOff: "We hope you enjoy it as much as we do!",
+            hole: "Hole",
+            watch: "Watch"
         }
       },
       fr: {
@@ -48,7 +54,13 @@ i18n
             contact: "Contacter",
             exploreOurCourses: "Découvrez nos cours",
             gcdesc: "Terrain de golf 18 trous",
-            learnMore: "Plus d'informations"
+            learnMore: "Plus d'informations",
+            exploreHV: "Explorer Horizon View",
+            nowOpen: "Maintenant ouvert",
+            horizonViewDesc: "En jouant sur le parcours Horizon View de l'Eagle's Nest Golf Club, vous bénéficierez d'une vue panoramique sur des collines ondulantes, une verdure luxuriante et des horizons lointains qui semblent s'étendre à l'infini. Le parcours Horizon View offre un mélange harmonieux de trous difficiles et de paysages à couper le souffle, créant une expérience de golf à la fois revigorante et tranquille.",
+            courseSignOff: "Nous espérons que vous l'apprécierez autant que nous!",
+            hole: "Trou",
+            watch: "Regarder"
           }
       },
     }
