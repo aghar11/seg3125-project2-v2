@@ -1,6 +1,6 @@
 import { Container, Image, Row, Col, Card, Button } from "react-bootstrap";
 
-import landingPicture from "../../../resources/coursepages/confirm_details.png";
+import landingPicture from "../../../resources/coursePages/confirm_details.png";
 
 const DetailsConfirmation = ({setCourseName, prevStep}) => {
     return (

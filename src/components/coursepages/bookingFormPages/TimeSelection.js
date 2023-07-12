@@ -1,6 +1,6 @@
 import { Container, Image, Row, Col, Card, Button } from "react-bootstrap";
 
-import landingPicture from "../../../resources/coursepages/time_selection.png";
+import landingPicture from "../../../resources/coursePages/time_selection.png";
 
 const TimeSelection = ({setCourseName, prevStep}) => {
     return (

@@ -1,6 +1,6 @@
 import { Container, Image, Row, Col, Card, Button } from "react-bootstrap";
 
-import landingPicture from "../../../resources/coursepages/player_info.png"
+import landingPicture from "../../../resources/coursePages/player_info.png"
 
 const GolferInfoInput = ({setCourseName, prevStep}) => {
     return (

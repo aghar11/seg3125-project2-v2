@@ -1,6 +1,6 @@
 import { Container, Image, Row, Col, Card, Button, } from "react-bootstrap";
 
-import landingPicture from "../../../resources/coursepages/course_selection.png"
+import landingPicture from "../../../resources/coursePages/course_selection.png"
 import horizonViewIcon from "../../../resources/homepage/horizon_view_icon.jpg";
 import soaringHeightsIcon from "../../../resources/homepage/soaring_heights_icon.jpeg";
 

@@ -2,7 +2,7 @@ import NavigationBar from "../shared/NavigationBar";
 import { Image, Container, Row, Col } from "react-bootstrap";
 import BookingForm from "./bookingFormPages/BookingForm";
 
-import landingPicture from "../../resources/coursepages/booking_landing.webp"
+import landingPicture from "../../resources/coursePages/booking_landing.webp"
 
 function BookingPage() {
     return (

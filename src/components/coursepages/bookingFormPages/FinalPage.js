@@ -1,6 +1,6 @@
 import { Container, Image, Row, Col, Card, Button } from "react-bootstrap";
 
-import landingPicture from "../../../resources/coursepages/final.png";
+import landingPicture from "../../../resources/coursePages/final.png";
 
 const FinalPage = ({setCourseName, prevStep}) => {
     return (
