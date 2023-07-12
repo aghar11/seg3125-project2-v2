@@ -8,7 +8,7 @@ import horizonViewIcon from "../../resources/homepage/horizon_view_icon.jpg";
 import soaringHeightsIcon from "../../resources/homepage/soaring_heights_icon.jpeg";
 
 function Homepage() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <div className="Homepage">

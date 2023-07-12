@@ -11,7 +11,7 @@ import holeLayout from "../../resources/coursePages/hole_layout.webp";
 function HorizonView() {
     const [modalShow, setModalShow] = React.useState(false);
 
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <div className="HorizonView">

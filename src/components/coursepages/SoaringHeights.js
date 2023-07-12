@@ -2,6 +2,7 @@ import NavigationBar from "../shared/NavigationBar";
 import { Button, Container, Image, Card, Col, Row, Badge, Carousel } from "react-bootstrap";
 import React from "react";
 import HolePreviewModal from "../shared/HolePreviewModal";
+import { useTranslation } from "react-i18next";
 
 import landingPicture from "../../resources/coursePages/soaring_heights_landing.jpeg";
 import golfIcon from "../../resources/shared/golf.png";
@@ -10,6 +11,8 @@ import holeLayout from "../../resources/coursePages/hole_layout.webp";
 function SoaringHeights() {
     const [modalShow, setModalShow] = React.useState(false);
 
+    const { t } = useTranslation();
+
     return (
         <div className="SoaringHeights">
             <NavigationBar/>
@@ -17,20 +20,20 @@ function SoaringHeights() {
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Soaring Heights</h1>
                 <h1 className='text-center'>
-                    <Badge bg="dark">Now Open</Badge>
+                    <Badge bg="dark">{t('nowOpen')}</Badge>
                 </h1>
-                <p className="text-center">The Soaring Heights Course at Eagle's Nest Golf Club is renowned for its elevated fairways, strategically placed bunkers, and sweeping views that stretch far beyond the horizon. Immerse yourself in the beauty of nature while tackling the challenges of this stunning course, where every shot feels like a majestic flight towards the heavens.<br/>We hope you enjoy it as much as we do!</p>
+                <p className="text-center">{t('soaringHeightsDesc')}<br/>{t('courseSignOff')}</p>
             </Container>
             <Container className='mt-4'>
                 <Row>
                     <Col>
-                        <Button className='m-auto d-block mt-5' variant='success' href='/courseBooking'>Book Now</Button>
+                        <Button className='m-auto d-block mt-5' variant='success' href='/courseBooking'>{t('bookNow')}</Button>
                     </Col>
                     <Col>
                         <Image src={golfIcon} className='mx-auto d-block mt-5'></Image>
                     </Col>
                     <Col>
-                        <h1 className='display-6 text-center'>Contact</h1>
+                        <h1 className='display-6 text-center'>{t('contact')}</h1>
                         <p className='text-center'>
                             (613) 236 7262<br/>
                             (613) 394 2342<br/>
@@ -41,7 +44,7 @@ function SoaringHeights() {
             </Container>
             <div className='container-bg'>
                 <Container className='d-flex align-center justify-content-center mt-2'>
-                    <h1 className='display-6 text-center mt-3'>Explore Our Courses</h1>
+                    <h1 className='display-6 text-center mt-3'>{t('exploreSH')}</h1>
                 </Container>
                 <Container className='d-flex align-center justify-content-center container-fluid'>
                 <Carousel>
@@ -50,47 +53,22 @@ function SoaringHeights() {
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 1</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 1</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 2</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 2</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 3</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
-                                    </Card.Body>
-                                </Card>
-                            </Container>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <Container className='d-flex align-center justify-content-center container-fluid mt-1'>
-                                <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
-                                    <Card.Body>
-                                        <Card.Title className='text-center'>Hole 4</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
-                                    </Card.Body>
-                                </Card>
-                                <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
-                                    <Card.Body>
-                                        <Card.Title className='text-center'>Hole 5</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
-                                    </Card.Body>
-                                </Card>
-                                <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
-                                    <Card.Body>
-                                        <Card.Title className='text-center'>Hole 6</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 3</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -100,22 +78,22 @@ function SoaringHeights() {
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 7</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 4</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 8</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 5</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 9</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 6</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -125,22 +103,47 @@ function SoaringHeights() {
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 10</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 7</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 11</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 8</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
+                                    </Card.Body>
+                                </Card>
+                                <Card style={{ width: '22rem', margin: 5}}>
+                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Body>
+                                        <Card.Title className='text-center'>{t('hole')} 9</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
+                                    </Card.Body>
+                                </Card>
+                            </Container>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Container className='d-flex align-center justify-content-center container-fluid mt-1'>
+                                <Card style={{ width: '22rem', margin: 5}}>
+                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Body>
+                                        <Card.Title className='text-center'>{t('hole')} 10</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
+                                    </Card.Body>
+                                </Card>
+                                <Card style={{ width: '22rem', margin: 5}}>
+                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Body>
+                                        <Card.Title className='text-center'>{t('hole')} 11</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top"  src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 12</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 12</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -150,22 +153,22 @@ function SoaringHeights() {
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 13</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 13</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 14</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 14</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 15</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 15</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>
@@ -175,22 +178,22 @@ function SoaringHeights() {
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 16</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 16</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top" src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 17</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 17</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
                                     <Card.Img variant="top"  src={holeLayout}/>
                                     <Card.Body>
-                                        <Card.Title className='text-center'>Hole 18</Card.Title>
-                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>Watch</Button>
+                                        <Card.Title className='text-center'>{t('hole')} 18</Card.Title>
+                                        <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                             </Container>

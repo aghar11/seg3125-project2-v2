@@ -34,7 +34,9 @@ i18n
             horizonViewDesc: "As you play the the Horizon View Course at Eagle's Nest Golf Club, you'll be treated to panoramic views of rolling hills, lush greenery, and distant horizons that seem to stretch on forever. The Horizon View Course offers a harmonious blend of challenging holes and breathtaking scenery, creating a golfing experience that is both invigorating and tranquil.",
             courseSignOff: "We hope you enjoy it as much as we do!",
             hole: "Hole",
-            watch: "Watch"
+            watch: "Watch",
+            soaringHeightsDesc: "The Soaring Heights Course at Eagle's Nest Golf Club is renowned for its elevated fairways, strategically placed bunkers, and sweeping views that stretch far beyond the horizon. Immerse yourself in the beauty of nature while tackling the challenges of this stunning course, where every shot feels like a majestic flight towards the heavens.",
+            exploreSH: "Explore Soaring Heights"
         }
       },
       fr: {
@@ -60,7 +62,9 @@ i18n
             horizonViewDesc: "En jouant sur le parcours Horizon View de l'Eagle's Nest Golf Club, vous bénéficierez d'une vue panoramique sur des collines ondulantes, une verdure luxuriante et des horizons lointains qui semblent s'étendre à l'infini. Le parcours Horizon View offre un mélange harmonieux de trous difficiles et de paysages à couper le souffle, créant une expérience de golf à la fois revigorante et tranquille.",
             courseSignOff: "Nous espérons que vous l'apprécierez autant que nous!",
             hole: "Trou",
-            watch: "Regarder"
+            watch: "Regarder",
+            soaringHeightsDesc: "Le Soaring Heights Course du Eagle's Nest Golf Club est réputé pour ses fairways surélevés, ses bunkers stratégiquement placés et ses vues panoramiques qui s'étendent bien au-delà de l'horizon. Plongez dans la beauté de la nature tout en relevant les défis de ce parcours époustouflant, où chaque coup ressemble à un vol majestueux vers les cieux.",
+            exploreSH: "Explorer Soaring Heights"
           }
       },
     }
