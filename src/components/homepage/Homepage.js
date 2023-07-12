@@ -13,7 +13,7 @@ function Homepage() {
             <Image src={landingPicture} className='mx-auto d-block w-100'></Image>
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Welcome to Eagle's Nest Golf Club!</h1>
-                <p>Welcome to Eagle's Nest Golf Club, where soaring ambitions meet tranquil greens. Nestled in the picturesque countryside, this golfing sanctuary offers an unrivalled experience for enthusiasts of the sport. With its meticulously designed fairways, challenging hazards, and breathtaking vistas, Eagle's Nest promises to elevate your game while immersing you in the serenity of nature. Whether you're a seasoned golfer seeking a new challenge or a beginner looking to embark on a golfing journey, our course and trained instructors cater to players of all skill levels. Prepare to spread your wings and embark on an unforgettable golfing adventure at Eagle's Nest Golf Club.</p>
+                <p className="text-center">Welcome to Eagle's Nest Golf Club, where soaring ambitions meet tranquil greens!<br/>Whether you're a seasoned golfer seeking a new challenge or a beginner in the sport, our course and trained instructors cater to players of all skill levels.</p>
             </Container>
             <Container className='mt-4'>
                 <Row>
