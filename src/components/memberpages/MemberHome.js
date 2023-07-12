@@ -39,17 +39,17 @@ function MemberHome() {
                                     <Form>
                                         <Form.Group className="mb-3" controlId="formGroupEmail">
                                             <Form.Label>Course Name</Form.Label>
-                                            <Form.Control type="email" placeholder="Enter course name" />
+                                            <Form.Control required type="text" placeholder="Enter course name" />
                                         </Form.Group>
                                         <Form.Group className="mb-3" controlId="formGroupEmail">
                                             <Form.Label>Course Par</Form.Label>
-                                            <Form.Control type="email" placeholder="Enter par for the course" />
+                                            <Form.Control required type="number" placeholder="Enter par for the course" />
                                         </Form.Group>
                                         <Form.Group className="mb-3" controlId="formGroupPassword">
                                             <Form.Label>Your Score</Form.Label>
-                                            <Form.Control type="password" placeholder="Enter your score" />
+                                            <Form.Control required type="number" placeholder="Enter your score" />
                                         </Form.Group>
-                                        <Button className='mx-auto d-block mt-3' href="/memberHome" variant="success">Enter Score</Button>
+                                        <Button className='mx-auto d-block mt-3' type="submit" variant="success">Enter Score</Button>
                                     </Form>
                                 </Col>
                             </Row>
