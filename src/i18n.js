@@ -36,7 +36,11 @@ i18n
             hole: "Hole",
             watch: "Watch",
             soaringHeightsDesc: "The Soaring Heights Course at Eagle's Nest Golf Club is renowned for its elevated fairways, strategically placed bunkers, and sweeping views that stretch far beyond the horizon. Immerse yourself in the beauty of nature while tackling the challenges of this stunning course, where every shot feels like a majestic flight towards the heavens.",
-            exploreSH: "Explore Soaring Heights"
+            exploreSH: "Explore Soaring Heights",
+            preview: "Preview",
+            holeNumber: "Hole Number",
+            yards: "Yards",
+            close: "Close"
         }
       },
       fr: {
@@ -64,7 +68,11 @@ i18n
             hole: "Trou",
             watch: "Regarder",
             soaringHeightsDesc: "Le Soaring Heights Course du Eagle's Nest Golf Club est réputé pour ses fairways surélevés, ses bunkers stratégiquement placés et ses vues panoramiques qui s'étendent bien au-delà de l'horizon. Plongez dans la beauté de la nature tout en relevant les défis de ce parcours époustouflant, où chaque coup ressemble à un vol majestueux vers les cieux.",
-            exploreSH: "Explorer Soaring Heights"
+            exploreSH: "Explorer Soaring Heights",
+            preview: "Aperçu",
+            holeNumber: "Numéro de trou",
+            yards: "Verges",
+            close: "Fermer"
           }
       },
     }

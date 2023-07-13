@@ -1,7 +1,10 @@
 import Modal from 'react-bootstrap/Modal';
 import { Button, Ratio } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 function HolePreviewModal(props) {
+  const { t } = useTranslation();
+
   return (
     <Modal
       {...props}
@@ -11,21 +14,21 @@ function HolePreviewModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Hole _ Preview
+          {t('hole')} _ {t('preview')}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <p>
-            Hole Number: _ <br/>
+            {t('holeNumber')}: _ <br/>
             Par: 4 <br/>
-            Yards: 270
+            {t('yards')}: 270
         </p>
         <Ratio>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/6lJ8sAwBM9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </Ratio>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide} variant='dark'>Close</Button>
+        <Button onClick={props.onHide} variant='dark'>{t('close')}</Button>
       </Modal.Footer>
     </Modal>
   );

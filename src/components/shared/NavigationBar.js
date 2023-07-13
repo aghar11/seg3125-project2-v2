@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Image, Button } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 
 import { HouseFill, TrophyFill, FileLock2Fill, BookmarkCheckFill } from "react-bootstrap-icons";
