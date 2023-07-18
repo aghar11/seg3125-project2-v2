@@ -5,7 +5,7 @@ import landingPicture from "../../../resources/tournamentPages/final.png";
 const FinalPage = ({setCourseName, prevStep}) => {
     return (
         <Container className='mt-3'>
-            <Image src={landingPicture} className='mx-auto d-block'></Image>
+            <Image src={landingPicture} className='mx-auto d-block' alt="Progression indicator with numbered circles in order from 1 to 2 with arrows between the adjacent numbered circles. Both circles are filled in to indicate completion of the steps."></Image>
             <Container className='d-flex align-center justify-content-center mt-2'>
                 <Row>
                     <Col>

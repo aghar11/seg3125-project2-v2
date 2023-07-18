@@ -16,7 +16,7 @@ function MemberLogin() {
     return (
         <div className="MemberLogin">
             <NavigationBar/>
-            <Image src={landingPicture} className='mx-auto d-block w-100'></Image>
+            <Image src={landingPicture} className='mx-auto d-block w-100' alt="Picture of the inside of the locker room at the Eagle's Nest Golf Club"></Image>
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Welcome to Eagle's Nest Golf Club!</h1>
                 <Row>

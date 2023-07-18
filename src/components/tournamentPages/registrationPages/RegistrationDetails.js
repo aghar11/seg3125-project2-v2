@@ -5,7 +5,7 @@ import landingPicture from "../../../resources/tournamentPages/details_confirmat
 const RegistrationDetails = ({setCourseName, prevStep}) => {
     return (
         <Container className='mt-3'>
-            <Image src={landingPicture} className='mx-auto d-block'></Image>
+            <Image src={landingPicture} className='mx-auto d-block' alt="Progression indicator with numbered circles in order from 1 to 2 with arrows between the adjacent numbered circles. First circle is filled in to indicate completion of the first step while the second is unfilled with a green border to indicate uncomplete status."></Image>
             <h1 className='display-6'>Confirm Details</h1>
             <Container className='d-flex align-center justify-content-center mt-2'>
                 <Row>

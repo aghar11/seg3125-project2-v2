@@ -8,7 +8,7 @@ function TournamentRegistration() {
     return (
         <div className="TournamentRegistration">
             <NavigationBar/>
-            <Image src={landingPicture} className='mx-auto d-block w-100'></Image>
+            <Image src={landingPicture} className='mx-auto d-block w-100' alt="Action shot of a golf tournament with many spectators around the green's and two players and their caddies putting on the green."></Image>
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Tournament ____ Registration</h1>
                 <Row>

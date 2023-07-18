@@ -52,7 +52,7 @@ function TournamentList() {
     return (
         <div className="TournamentList">
             <NavigationBar/>
-            <Image src={landingPicture} className='mx-auto d-block w-100'></Image>
+            <Image src={landingPicture} className='mx-auto d-block w-100' alt="Close up show of a golf hole cup with a golf ball resting on the opposite side of the cup."></Image>
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Upcoming Tournaments</h1>
                 <Row>

@@ -16,7 +16,7 @@ function HorizonView() {
     return (
         <div className="HorizonView">
             <NavigationBar/>
-            <Image src={landingPicture} className='mx-auto d-block w-100'></Image>
+            <Image src={landingPicture} className='mx-auto d-block w-100' alt="Picture facing back from the putting green to the tee box on hole 8 of the Horizon View course."></Image>
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Horizon View</h1>
                 <h1 className='text-center'>
@@ -30,7 +30,7 @@ function HorizonView() {
                         <Button className='m-auto d-block mt-5' variant='success' href='/courseBooking'>{t('bookNow')}</Button>
                     </Col>
                     <Col>
-                        <Image src={golfIcon} className='mx-auto d-block mt-5'></Image>
+                        <Image src={golfIcon} className='mx-auto d-block mt-5' alt="Decorative icon of a golf flag"></Image>
                     </Col>
                     <Col>
                         <h1 className='display-6 text-center'>{t('contact')}</h1>
@@ -51,21 +51,21 @@ function HorizonView() {
                         <Carousel.Item>
                             <Container className='d-flex align-center justify-content-center container-fluid mt-1'>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 1</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 2</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 3</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
@@ -76,21 +76,21 @@ function HorizonView() {
                         <Carousel.Item>
                             <Container className='d-flex align-center justify-content-center container-fluid mt-1'>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 4</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 5</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 6</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
@@ -101,21 +101,21 @@ function HorizonView() {
                         <Carousel.Item>
                             <Container className='d-flex align-center justify-content-center container-fluid mt-1'>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 7</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 8</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 9</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
@@ -126,21 +126,21 @@ function HorizonView() {
                         <Carousel.Item>
                             <Container className='d-flex align-center justify-content-center container-fluid mt-1'>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 10</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 11</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top"  src={holeLayout}/>
+                                    <Card.Img variant="top"  src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 12</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
@@ -151,21 +151,21 @@ function HorizonView() {
                         <Carousel.Item>
                             <Container className='d-flex align-center justify-content-center container-fluid mt-1'>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 13</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 14</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 15</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
@@ -176,21 +176,21 @@ function HorizonView() {
                         <Carousel.Item>
                             <Container className='d-flex align-center justify-content-center container-fluid mt-1'>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 16</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top" src={holeLayout}/>
+                                    <Card.Img variant="top" src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 17</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>
                                     </Card.Body>
                                 </Card>
                                 <Card style={{ width: '22rem', margin: 5}}>
-                                    <Card.Img variant="top"  src={holeLayout}/>
+                                    <Card.Img variant="top"  src={holeLayout} alt="Computer generated overview of the hole layout"/>
                                     <Card.Body>
                                         <Card.Title className='text-center'>{t("hole")} 18</Card.Title>
                                         <Button variant="dark" className='mx-auto d-block' onClick={() => setModalShow(true)}>{t("watch")}</Button>

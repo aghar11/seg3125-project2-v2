@@ -7,7 +7,7 @@ function Basics() {
     return (
         <div className="Basics">
             <NavigationBar/>
-            <Image src={landingPicture} className='mx-auto d-block w-100'></Image>
+            <Image src={landingPicture} className='mx-auto d-block w-100' alt="Up close shot on golfers feet, club head, and ball to be struck on a driving range mat beside a tipped over pail of golf balls."></Image>
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Let's get you started!</h1>
                 <p className="text-center">

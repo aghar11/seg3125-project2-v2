@@ -23,7 +23,7 @@ function NavigationBar() {
     return (
         <>
          <Container fluid className='text-center mt-4 mb-4'>
-            <Image src={logo} fluid/>
+            <Image src={logo} fluid alt="Eagle's Nest Golf Club Logo"/>
          </Container>
          <Navbar bg='dark' data-bs-theme="dark" >
             <Container fluid className='text-center'>

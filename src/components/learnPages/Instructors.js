@@ -16,7 +16,7 @@ function Instructors() {
     return (
         <div className="Instructors">
             <NavigationBar/>
-            <Image src={landingPicture} className='mx-auto d-block w-100'></Image>
+            <Image src={landingPicture} className='mx-auto d-block w-100' alt="Golf instructor helping a golfer with their swing on an indoor golf simulator."></Image>
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Golf Academy</h1>
                 <p>
@@ -29,7 +29,7 @@ function Instructors() {
                 <Row>
                     <Col sm={4}>
                         <Card>
-                            <Card.Img src={sarah}/>
+                            <Card.Img src={sarah} alt="Image of one of the golf academy instructors; Sarah Mitchell"/>
                         </Card>
                     </Col>
                     <Col sm={8}>
@@ -49,7 +49,7 @@ function Instructors() {
                 <Row>
                     <Col sm={4}>
                         <Card>
-                            <Card.Img src={david}/>
+                            <Card.Img src={david} alt="Image of one of the golf academy instructors; David Reynolds"/>
                         </Card>
                     </Col>
                     <Col sm={8}>
@@ -69,7 +69,7 @@ function Instructors() {
                 <Row>
                     <Col sm={4}>
                         <Card>
-                            <Card.Img src={mark}/>
+                            <Card.Img src={mark} alt="Image of one of the golf academy instructors; Mark Thompson"/>
                         </Card>
                     </Col>
                     <Col sm={8}>
@@ -89,7 +89,7 @@ function Instructors() {
                 <Row>
                     <Col sm={4}>
                         <Card>
-                            <Card.Img src={mike}/>
+                            <Card.Img src={mike} alt="Image of one of the golf academy instructors; Mike Wong"/>
                         </Card>
                     </Col>
                     <Col sm={8}>
@@ -97,7 +97,7 @@ function Instructors() {
                             <Card.Body>
                                 <Card.Title>Mike Wong - The Mental Game Guru</Card.Title>
                                 <Card.Text>
-                                Golf is as much a mental challenge as it is a physical one, and Emily Wong, "The Mental Game Guru," understands this better than anyone. Emily's holistic approach to golf instruction focuses not only on technical skills but also on mental fortitude, confidence, and course management. Her insightful strategies, relaxation techniques, and mental exercises will equip you with the mental resilience needed to excel under pressure.
+                                Golf is as much a mental challenge as it is a physical one, and Mike Wong, "The Mental Game Guru," understands this better than anyone. Mike's holistic approach to golf instruction focuses not only on technical skills but also on mental fortitude, confidence, and course management. His insightful strategies, relaxation techniques, and mental exercises will equip you with the mental resilience needed to excel under pressure.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -109,7 +109,7 @@ function Instructors() {
                 <Row>
                     <Col sm={4}>
                         <Card>
-                            <Card.Img src={stacy}/>
+                            <Card.Img src={stacy} alt="Image of one of the golf academy instructors; Stacy Johnson"/>
                         </Card>
                     </Col>
                     <Col sm={8}>

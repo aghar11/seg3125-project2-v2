@@ -5,7 +5,7 @@ import landingPicture from "../../../resources/coursePages/time_selection.png";
 const TimeSelection = ({setCourseName, prevStep}) => {
     return (
         <Container className='mt-3'>
-            <Image src={landingPicture} className='mx-auto d-block'></Image>
+            <Image src={landingPicture} className='mx-auto d-block' alt="Progression indicator with numbered circles in order from 1 to 5 with arrows between the adjacent numbered circles. First circle is colored in green to indicate completion while rest of the circles are unfilled with a green border."></Image>
             <h1 className='display-6'>Select a Time</h1>
             <Container className='d-flex align-center justify-content-center mt-2'>
                 <Row>

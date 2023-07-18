@@ -60,7 +60,6 @@ i18n
             contact: "Contacter",
             exploreOurCourses: "Découvrez nos cours",
             gcdesc: "Terrain de golf 18 trous",
-            learnMore: "Plus d'informations",
             exploreHV: "Explorer Horizon View",
             nowOpen: "Maintenant ouvert",
             horizonViewDesc: "En jouant sur le parcours Horizon View de l'Eagle's Nest Golf Club, vous bénéficierez d'une vue panoramique sur des collines ondulantes, une verdure luxuriante et des horizons lointains qui semblent s'étendre à l'infini. Le parcours Horizon View offre un mélange harmonieux de trous difficiles et de paysages à couper le souffle, créant une expérience de golf à la fois revigorante et tranquille.",

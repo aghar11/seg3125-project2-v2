@@ -5,7 +5,7 @@ import landingPicture from "../../../resources/tournamentPages/player_info_input
 const GolferInfoInput = ({setCourseName, prevStep}) => {
     return (
         <Container className='mt-3'>
-            <Image src={landingPicture} className='mx-auto d-block'></Image>
+            <Image src={landingPicture} className='mx-auto d-block' alt="Progression indicator with numbered circles in order from 1 to 2 with arrows between the adjacent numbered circles. Both circles are unfilled with a green border to indicate uncomplete status of steps."></Image>
             <h1 className='display-6'>Input Player Info</h1>
             <Container className='d-flex align-center justify-content-center mt-2'>
                 <Row>

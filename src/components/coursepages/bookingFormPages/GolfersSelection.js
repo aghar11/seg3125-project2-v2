@@ -5,7 +5,7 @@ import landingPicture from "../../../resources/coursePages/golfers_selection.png
 const GolfersSelection = ({setCourseName, prevStep}) => {
     return (
         <Container className='mt-3'>
-            <Image src={landingPicture} className='mx-auto d-block'></Image>
+            <Image src={landingPicture} className='mx-auto d-block' alt="Progression indicator with numbered circles in order from 1 to 5 with arrows between the adjacent numbered circles. First 2 circles are colored in green to indicate completion while rest of the circles are unfilled with a green border."></Image>
             <h1 className='display-6'>How many golfers?</h1>
             <Container className='d-flex align-center justify-content-center mt-2'>
                 <Row>

@@ -9,7 +9,7 @@ function TournamentHome() {
     return (
         <div className="HorizonView">
             <NavigationBar/>
-            <Image src={landingPicture} className='mx-auto d-block w-100'></Image>
+            <Image src={landingPicture} className='mx-auto d-block w-100' alt="Close up show of a golf hole cup with a golf ball resting on the opposite side of the cup."></Image>
             <Container className='mt-3'>
                 <h1 className='display-5 text-center'>Grand Fairway Classic</h1>
             </Container>
@@ -27,7 +27,7 @@ function TournamentHome() {
                         </p>
                     </Col>
                     <Col>
-                        <Image src={callawayLogo} className='mx-auto d-block'></Image>
+                        <Image src={callawayLogo} className='mx-auto d-block' alt="Callaway Golf logo"></Image>
                     </Col>
                 </Row>
                 <h1 className='display-6'>Details</h1>
