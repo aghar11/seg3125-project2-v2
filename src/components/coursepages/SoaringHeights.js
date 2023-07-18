@@ -30,7 +30,7 @@ function SoaringHeights() {
                         <Button className='m-auto d-block mt-5' variant='success' href='/courseBooking'>{t('bookNow')}</Button>
                     </Col>
                     <Col>
-                        <Image src={golfIcon} className='mx-auto d-block mt-5'></Image>
+                        <Image src={golfIcon} className='mx-auto d-block mt-5' alt="Decorative icon of a golf flag"></Image>
                     </Col>
                     <Col>
                         <h1 className='display-6 text-center'>{t('contact')}</h1>
