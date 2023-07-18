@@ -58,7 +58,7 @@ function TournamentList() {
                 <Row>
                     <Col sm={4}>
                         <h4 className="mt-2">Filter by Category</h4>
-                        <Form.Select id="categoryFilter" value={categoryFilter} onChange={handleCategoryFilterChange}>
+                        <Form.Select id="categoryFilter" value={categoryFilter} onChange={handleCategoryFilterChange} aria-label="Tournament Category">
                             <option value="all">All</option>
                             <option value="Beginner">Beginner</option>
                             <option value="Amateur">Amateur</option>
@@ -66,14 +66,14 @@ function TournamentList() {
                             <option value="Senior">Senior</option>
                         </Form.Select>
                         <h4 className="mt-3">Filter by Style</h4>
-                        <Form.Select id="styleFilter" value={styleFilter} onChange={handleStyleFilterChange}>
+                        <Form.Select id="styleFilter" value={styleFilter} onChange={handleStyleFilterChange} aria-label="Tournament Style">
                             <option value="all">All</option>
                             <option value="Scramble">Scramble</option>
                             <option value="Stableford">Stableford</option>
                             <option value="Individual">Individual</option>
                         </Form.Select>
                         <h4 className="mt-3">Filter by Month</h4>
-                        <Form.Select id="monthFilter" value={monthFilter} onChange={handleMonthFilterChange}>
+                        <Form.Select id="monthFilter" value={monthFilter} onChange={handleMonthFilterChange} aria-label="Tournament Month">
                             <option value="all">All</option>
                             <option value="April">April</option>
                             <option value="May">May</option>
@@ -84,7 +84,7 @@ function TournamentList() {
                             <option value="Oct">October</option>
                         </Form.Select>
                         <h4 className="mt-3">Filter by Fees</h4>
-                        <Form.Select id="feeeFilter" value={feeFilter} onChange={handleFeeFilterChange}>
+                        <Form.Select id="feeeFilter" value={feeFilter} onChange={handleFeeFilterChange} aria-label="Tournament Fees">
                             <option value="all">All</option>
                             <option value="100">Less than $100</option>
                             <option value="200">Less than $200</option>
@@ -113,7 +113,7 @@ function TournamentList() {
                                                 Register
                                             </Button>
                                             <Button variant="outline-success" size="lg" href="/tournamentHome">
-                                                Learn More
+                                                Explore Tournament
                                             </Button>
                                         </div>
                                     </Col>
