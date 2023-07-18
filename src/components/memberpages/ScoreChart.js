@@ -16,7 +16,7 @@ const TrendData = [
 ]
 
 const TrendOptions = {
-    title: 'Round Score by Data (May)',
+    title: 'Round Score by Date (May)',
     hAxis: {title: 'Day'},
     vAxis: {title: 'Score'},
     legend: 'none',
@@ -26,7 +26,6 @@ const TrendOptions = {
 function ScoreChart() {
     return(
         <>
-            <h2>React Trend Line Chart Example</h2>
             <Chart
             width={'600px'}
             height={'350px'}
